@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Webfont Links -->
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> 
+
+    <title>Punstagram!</title>
+</head>
+<body>
+    <header>
+        <!-- added a separate wrapper for the header for wider display -->
+        <div class="header_wrapper">
+            <div class="flex_container">
+                <h1>Punstagram!</h1>
+                <p>live a giggle</p>
+                <!-- Search bubble Div to build our speech bubble search bar -->
+                <div class="search_bubble">
+                    <form action="#">
+                        <p>Want a funny?</p>
+                        <input type="text" id="search_input">
+                        <button type="submit">Pun me up!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+    <div class="wrapper">
+        <div class="pun_container">
+            <!-- Dynamic Pun content goes in here -->
+        </div>
+    </div>
+    </main>
+    </body>
+    <footer>
+        <p>
+        Funnies courtesy of the
+        <a href="https://icanhazdadjoke.com/api">DadJoke API</a></p>
+        <p>Created at <a href="https://junocollege.com/">Juno College</a>!</p>
+    </footer>
+
+    <!-- Import jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- Link JS script -->
+    <script src="script.js"></script>
+</html>
