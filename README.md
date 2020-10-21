@@ -1,2 +1,2 @@
 # punstagram
-A fun little app that lets your search for fun dadjokes!
+A fun little app that lets you search for fun dadjokes!
